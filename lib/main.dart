@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:test_of_solidsoftware/view/dashboard_page.dart';
+import 'package:test_of_solidsoftware/view/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Main());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+/// Base of all things.
+class Main extends StatelessWidget {
+  /// Calling the constructor.
+  const Main({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const DashboardPage(),
+      home: const HomeScreen(),
     );
   }
 }
