@@ -3,12 +3,18 @@ class Constants {
   /// max color index
   static const rgb = 255;
 
-  /// max color value
+  /// max rgb color value
   static const rgbvalue = 256;
 
-  /// constant for color convert to hex function
-  static const i = 16;
+  /// padding Value
+  static const kPadding = 15.0;
 
-  /// constant for color convert to hex function
-  static const j = 2;
+  /// substring start index value
+  static const i = 6;
+
+  /// substring end index value
+  static const j = 16;
+
+  /// vibration time
+  static const vibrateDuration = 70;
 }

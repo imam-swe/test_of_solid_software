@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test_of_solidsoftware">
-   <application
+    <uses-permission android:name="android.permission.VIBRATE"/> <!-- used for vibration -->
+    <application
         android:label="test_of_solidsoftware"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

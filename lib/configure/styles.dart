@@ -6,7 +6,7 @@ class Styles {
   /// Textstle
   static final textStyle1 = GoogleFonts.secularOne(
     textStyle: const TextStyle(
-      fontSize: 23,
+      fontSize: 25,
       fontWeight: FontWeight.bold,
       color: Colors.black,
     ),
@@ -16,6 +16,15 @@ class Styles {
   static final textStyle2 = GoogleFonts.lobster(
     textStyle: const TextStyle(
       fontSize: 23,
+      fontWeight: FontWeight.bold,
+      color: Colors.black,
+    ),
+  );
+
+  /// Textstle
+  static final textStyle3 = GoogleFonts.lobster(
+    textStyle: const TextStyle(
+      fontSize: 30,
       fontWeight: FontWeight.bold,
       color: Colors.black,
     ),
